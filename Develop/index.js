@@ -1,6 +1,8 @@
 // TODO: Include packages needed for this application
-inq = require('inquirer')
-fs = require('fs')
+const inq = require('inquirer')
+const fs = require('fs')
+const generateMarkdown = require('./utils/generateMarkdown')
+const fetch = require('node-fetch')
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -57,4 +59,13 @@ function init() {}
 // Function call to initialize app
 init();
 
-inq.prompt(questions).then((response) => console.log(response))
+inq
+.prompt(questions)
+.then((response) => 
+    fs.writeFile('README.md', JSON.stringify(response, null, '\t'), (err) => {
+    if (err) throw err;
+    console.log('file appended');
+}))
+
+fetch('https://api.github.com/licenses')
+.then((response) => response.json()).then((data) => console.log(data))
