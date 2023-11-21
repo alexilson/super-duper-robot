@@ -5,7 +5,6 @@ const generateMarkdown = require('./utils/generateMarkdown')
 const fetch = require('node-fetch')
 
 
-
 // TODO: Create an array of questions for user input
 const questions = [
     {
@@ -17,6 +16,11 @@ const questions = [
         type: 'input',
         message: 'Enter your GitHub username:',
         name: 'username'
+    },
+    {
+        type: 'input',
+        message: 'Enter your email address:',
+        name: 'email'
     },
     {
         type: 'input',
@@ -77,14 +81,3 @@ function getLicenses() {
 // Function call to initialize app
 init();
 
-// inq
-// .prompt(questions)
-// .then((response) => 
-//     fs.writeFile('README.md', JSON.stringify(response, null, '\t'), (err) => {
-//     if (err) throw err;
-//     console.log('file appended');
-// }))
-
-// fetch('https://api.github.com/licenses')
-// .then((response) => response.json())
-// .then((data) => console.log(data))
