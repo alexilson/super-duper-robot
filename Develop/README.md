@@ -1,7 +1,7 @@
-# Testing Project
+# Javascript Quiz
 
 ## Description
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.
+Test your knowledge! Using this simple Javascript quiz, written in Javascript. Only 5 questions, but it's timed! Good luck!
 
 ## Table of Contents
 [Installation](#installation)
@@ -18,23 +18,23 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.
 
 
 ## Installation
-Sed euismod, urna ac eleifend gravida, elit nisl ullamcorper ex, at scelerisque urna sem sit amet ante.
+Clone the repository and open index.html in a web browser of your choice.
 
 ## Usage
-Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque id mauris auctor, efficitur libero nec, consectetur metus.
+Press the "Start Game" button to start the game and the timer. You will be presented with one question at a time. Press the radio button for the answer you wish to select and press the Submit button. Continue until all questions are answered. You will be prompted for your name and then shown a list of high scores.
 
 ## License
-[![License: bsd-2-clause](https://img.shields.io/badge/bsd-2-clause.svg)](https://api.github.com/licenses/bsd-2-clause)
+[![License: mit](https://img.shields.io/badge/mit.svg)](https://api.github.com/licenses/mit)
 
 ## Contributing
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.
+N/A
 
 ## Tests
-Sed euismod, urna ac eleifend gravida, elit nisl ullamcorper ex, at scelerisque urna sem sit amet ante.
+N/A
 
 ## Questions
 For additional questions, please contact me here:
 
 GitHub: https://www.github.com/alexilson
 
-Email: mailto:ilson.alex@gmail.co
+Email: mailto:ilson.alex@gmail.com
