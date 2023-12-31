@@ -58,7 +58,7 @@ For additional questions, please contact me here:
 
 GitHub: https://www.github.com/${data.username}
 
-Email: mailto:${data.email}
+Email: ${data.email}
 `;
 }
 
