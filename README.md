@@ -26,7 +26,8 @@ First, you must have node installed. Clone the repo to your local machine, then 
 Run index.js and answer the prompts, it will generate a README.md file once complete. The file will be written to the output folder.
 
 ## License
-[![License: mit](https://img.shields.io/badge/mit.svg)](https://api.github.com/licenses/mit)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+This project uses the MIT license. Click the badge for more info.
 
 ## Contributing
 This project cannot be contributed to at this time.
