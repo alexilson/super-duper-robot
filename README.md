@@ -1,7 +1,9 @@
-# Test
+# Super Duper Robot - a README.md generator
 
 ## Description
-sldkjaflksdj
+Command Line based application written in Node.JS that generates a README.md file after the user answers a series of prompts.
+
+Video demo: https://drive.google.com/file/d/1etKZHZWZmjwlefxhSv5WF0Y_ZzeQ3clG/view
 
 ## Table of Contents
 [Installation](#installation)
@@ -18,23 +20,23 @@ sldkjaflksdj
 
 
 ## Installation
-Goose
+First, you must have node installed. Clone the repo to your local machine, then run npm install in the folder you cloned it into. Then run index.js and answer the prompts.
 
 ## Usage
-Shut Up
+Run index.js and answer the prompts, it will generate a README.md file once complete. The file will be written to the output folder.
 
 ## License
-[![License: agpl-3.0](https://img.shields.io/badge/agpl-3.0.svg)](https://api.github.com/licenses/agpl-3.0)
+[![License: mit](https://img.shields.io/badge/mit.svg)](https://api.github.com/licenses/mit)
 
 ## Contributing
-Nope
+This project cannot be contributed to at this time.
 
 ## Tests
-dont
+Under construction!
 
 ## Questions
 For additional questions, please contact me here:
 
-GitHub: https://www.github.com/no
+GitHub: https://www.github.com/alexilson
 
-Email: hello@hello.hello
+Email: ilson.alex@gmail.com
